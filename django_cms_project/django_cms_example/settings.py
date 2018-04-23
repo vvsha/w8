@@ -40,7 +40,7 @@ ALLOWED_HOSTS = ['*']
 ROOT_URLCONF = 'django_cms_example.urls'
 
 
-
+WSGI_APPLICATION = 'django_cms_example.wsgi.application'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
@@ -169,7 +169,7 @@ CMS_TEMPLATES = (
     ('fullwidth.html', 'Fullwidth'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right'),
-#    ('contacts.html', 'Contacts'),
+    ('contacts.html', 'Contacts'),
 )
 
 CMS_PERMISSION = True
