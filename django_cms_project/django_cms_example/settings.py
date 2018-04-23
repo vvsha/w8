@@ -169,7 +169,7 @@ CMS_TEMPLATES = (
     ('fullwidth.html', 'Fullwidth'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right'),
-    ('contacts.html', 'Contacts'),
+#    ('contacts.html', 'Contacts'),
 )
 
 CMS_PERMISSION = True
